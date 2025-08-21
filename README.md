@@ -6,6 +6,7 @@
 - [Quickstart](#quickstart)
   
 - [Technical Description](#Technical-description)
+  - [Dependencies](#dependencies)
   - [Architecture](#architecture)
   - [functions.py](#functionspy)
     - [extract_elements_html(url)](#extract_elements_htmlurl)
@@ -44,6 +45,11 @@ This application runs in the web browser - no installation required!
 8. If query yields any results, users can open any of the resulting URLs in a new window by clicking on them
 
 ## Technical description
+
+### Dependencies
+- Flask
+- BeautifulSoup4
+- requests
 
 ### Architecture
 The application contains several elements: functions.py (the "model"), web_app.py (the "controller") and several HTML templates and a CSS file (the "view"). The main HTML template is layout.hmtl. This file serves as the layout for all other .html files in the application, all of which extend layout.html using Jinja. 

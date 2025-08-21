@@ -47,9 +47,9 @@ This application runs in the web browser - no installation required!
 ## Technical description
 
 ### Dependencies
--Flask==3.0.0
--beautifulsoup4==4.12.2
--requests==2.31.0
+- Flask==3.0.0
+- beautifulsoup4==4.12.2
+- requests==2.31.0
 
 ### Architecture
 The application contains several elements: functions.py (the "model"), web_app.py (the "controller") and several HTML templates and a CSS file (the "view"). The main HTML template is layout.hmtl. This file serves as the layout for all other .html files in the application, all of which extend layout.html using Jinja. 

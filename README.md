@@ -38,7 +38,7 @@ This application runs in the web browser - no installation required!
 2. Select the crawling algorithm from the respective dropdown menu
 3. Select the indexing algorithm from the respective dropdown menu
 4. Click the "Crawl" button to launch the crawler
-5. Wait until the Sitemap and Index are complete. Once these are ready, users are automatically redirected to the Search page
+5. Wait until the Sitemap and Index are complete (this may take 2-3 minutes!). Once they are complete, users are automatically redirected to the Search page
 6. On the search page, enter a search term in the search bar
 7. Click the "Search button" to run the search query
 8. If query yields any results, users can open any of the resulting URLs in a new window by clicking on them
